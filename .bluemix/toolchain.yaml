@@ -1,0 +1,14 @@
+---
+template
+  name: "Simple Toolchain"
+  description: "This Hello World application uses Node.js and includes a toolchain that is preconfigured for continuous delivery, source control, issue tracking, and online editing.\n\nTo get started, click **Create**."
+  header: '![](toolchain.svg)'
+  icon: icon.svg
+  required:
+   - sample-build
+   - sample-repo
+  info:
+    git url: >-
+      [https://github.com/my-toolchain/simple-toolchain](https://github.com/open-toolchain/simple-toolchain)
+    git branch: >-
+      [master](https://github.com/my-toolchain/simple-toolchain/tree/master)
